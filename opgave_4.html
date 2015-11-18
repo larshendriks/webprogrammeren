@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>opgave 4 webshop</title>
+	</head>
+	<body>
+		<script>
+			var bestelling;
+			bestelling = prompt("prijs bestelling");
+			bestelling = parsefloat (bestelling);
+			if (bestelling >= 25){
+				alert("de totaal prijs van je bestelling is " + bestelling + ". met gratis verzending");
+			}else {
+				alert("de totaal prijs van je bestelling is " + bestelling + 3.95 " met verzendkosten");
+			}
+		</script>
+	</body>	
+</html>

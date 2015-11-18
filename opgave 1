@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DOM | Document Object</title>
+	</head>
+	<body>
+		<script>
+			//javascript popup vensters
+			/* voor meerdere regels commentaar */
+			alert("Hello world");
+			prompt("wat is je naam");
+			confirm("weet u het zeker");
+		</script>
+	</body>	
+</html>
